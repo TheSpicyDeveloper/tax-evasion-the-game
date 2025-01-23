@@ -3,7 +3,7 @@ left_key = keyboard_check(vk_left);
 up_key = keyboard_check(vk_up);
 down_key = keyboard_check(vk_down);
 dash = keyboard_check(vk_shift);
-
+//i'm about to dust!!! i'm about tooo dusstnjnshdnsdd noooooooowuhehuhrwuorfewuhyyuw
 function normalmovement()
 {
 //speed calculations
