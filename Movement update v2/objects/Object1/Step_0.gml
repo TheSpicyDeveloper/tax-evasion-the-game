@@ -3,7 +3,6 @@ left_key = keyboard_check(vk_left);
 up_key = keyboard_check(vk_up);
 down_key = keyboard_check(vk_down);
 dash = keyboard_check(vk_shift);
-//i'm about to dust!!! i'm about tooo dusstnjnshdnsdd noooooooowuhehuhrwuorfewuhyyuw
 function normalmovement()
 {
 //speed calculations
@@ -60,6 +59,4 @@ y += y_but_speed
 //dash cooldown calculation
 if dashcooldown > 0 {
 	dashcooldown -= 1
-	}
-	
-	// CHAD COMMENT
+}
