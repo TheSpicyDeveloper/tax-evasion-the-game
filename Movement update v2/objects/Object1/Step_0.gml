@@ -63,3 +63,4 @@ if dashcooldown > 0 {
 	}
 	
 	// CHAD COMMENT
+//hi chad
