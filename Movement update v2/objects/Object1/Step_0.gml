@@ -60,3 +60,4 @@ y += y_but_speed
 if dashcooldown > 0 {
 	dashcooldown -= 1
 }
+//hahahahahaha.... AHAHHAHAHAHHAHAHAHHAHAHAHAH!!!!! -chad
