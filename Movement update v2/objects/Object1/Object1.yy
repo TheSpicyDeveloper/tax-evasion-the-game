@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Lil_Evader",
-    "path":"sprites/Lil_Evader/Lil_Evader.yy",
+    "name":"lil_evader_r",
+    "path":"sprites/lil_evader_r/lil_evader_r.yy",
   },
   "spriteMaskId":null,
   "visible":true,
