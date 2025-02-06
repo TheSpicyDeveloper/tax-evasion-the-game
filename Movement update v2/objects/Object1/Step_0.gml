@@ -69,3 +69,4 @@ if y_but_speed > 0 {sprite_index =  lil_evader_d}
 if y_but_speed < 0 {sprite_index =  lil_evader_u}
 
 //AHHAHAHAHHAHAHAHAHAHAHAH
+//test 2
