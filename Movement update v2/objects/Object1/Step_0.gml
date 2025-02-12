@@ -61,6 +61,7 @@ y += y_but_speed
 if dashcooldown > 0 {
 	dashcooldown -= 1
 
+
 	}
 	
 // sprite
@@ -71,4 +72,6 @@ if y_but_speed < 0 {face = UP}
 sprite_index = sprite[face]
 
 
+
+//hahahahahaha.... AHAHHAHAHAHHAHAHAHHAHAHAHAH!!!!! -chad
 
