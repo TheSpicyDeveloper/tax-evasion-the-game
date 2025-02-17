@@ -4,6 +4,7 @@ up_key = keyboard_check(vk_up);
 down_key = keyboard_check(vk_down);
 dash = keyboard_check(vk_shift);
 function normalmovement()
+
 {
 //speed calculations
 x_but_speed = (right_key - left_key) * movement_of_speed;
@@ -60,10 +61,17 @@ y += y_but_speed
 if dashcooldown > 0 {
 	dashcooldown -= 1
 
+
 	}
 	
 // sprite
-if x_but_speed > 0 {sprite_index =  lil_evader_l}
-if x_but_speed < 0 {sprite_index =  lil_evader_r}
-if y_but_speed > 0 {sprite_index =  lil_evader_d}
-if y_but_speed < 0 {sprite_index =  lil_evader_u}
+if x_but_speed > 0 {face = RIGHT}
+if x_but_speed < 0 {face = LEFT}
+if y_but_speed > 0 {face = DOWN}
+if y_but_speed < 0 {face = UP}
+sprite_index = sprite[face]
+
+
+
+//hahahahahaha.... AHAHHAHAHAHHAHAHAHHAHAHAHAH!!!!! -chad
+
