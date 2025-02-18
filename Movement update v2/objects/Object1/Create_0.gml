@@ -9,4 +9,7 @@ right_key = false;
 left_key = false;
 up_key = false;
 down_key = false;
+shoot = false;
 dashdirections = [false,false,false,false];
+shootcooldown = 30;
+currentcooldown = 30;
