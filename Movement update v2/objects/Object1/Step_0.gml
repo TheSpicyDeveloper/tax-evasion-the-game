@@ -1,8 +1,9 @@
-right_key = keyboard_check(vk_right);
-left_key = keyboard_check(vk_left);
-up_key = keyboard_check(vk_up);
-down_key = keyboard_check(vk_down);
+right_key = keyboard_check(vk_right) or keyboard_check(ord("D"))
+left_key = keyboard_check(vk_left) or keyboard_check(ord("A"))
+up_key = keyboard_check(vk_up) or keyboard_check(ord("W"))
+down_key = keyboard_check(vk_down) or keyboard_check(ord("S"))
 dash = keyboard_check(vk_shift);
+gunbullet = mouse_button
 function normalmovement()
 
 {
@@ -74,4 +75,7 @@ sprite_index = sprite[face]
 
 
 //hahahahahaha.... AHAHHAHAHAHHAHAHAHHAHAHAHAH!!!!! -chad
-
+//bullets? or smth idfk
+if gunbullet > 0 {
+	instance_create_layer(x, y, gun_violence, gun_violence)
+	}

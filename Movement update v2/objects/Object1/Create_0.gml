@@ -10,3 +10,9 @@ left_key = false;
 up_key = false;
 down_key = false;
 dashdirections = [false,false,false,false];
+sprite[RIGHT] = lil_evader_l
+sprite[UP] = lil_evader_u
+sprite[LEFT] = lil_evader_r
+sprite[DOWN] = lil_evader_d
+
+face = RIGHT;
