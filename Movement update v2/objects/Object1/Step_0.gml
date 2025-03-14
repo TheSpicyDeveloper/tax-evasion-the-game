@@ -76,12 +76,11 @@ sprite_index = sprite[face]
 
 //hahahahahaha.... AHAHHAHAHAHHAHAHAHHAHAHAHAH!!!!! -chad
 
-//bullets? or smth idfk (add cooldown)
 
-
-// Step Event (or event where ability is triggered)
+//cooldown + bullets but better 
 if (can_use_ability) and gunbullet > 0 {
+	//creates bullets and makes and alarm for 5 frames. 
 	instance_create_layer(x, y, gun_violence, gun_violence)
-	alarm[0] = 5;  // Set alarm for 1 second (60 frames)
+	alarm[0] = 5;
 	can_use_ability = false;
     }

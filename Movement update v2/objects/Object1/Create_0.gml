@@ -14,6 +14,7 @@ sprite[RIGHT] = lil_evader_l
 sprite[UP] = lil_evader_u
 sprite[LEFT] = lil_evader_r
 sprite[DOWN] = lil_evader_d
+gunbullet = 0
 
 face = RIGHT;
 // Create Event
