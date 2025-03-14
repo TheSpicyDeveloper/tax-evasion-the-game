@@ -2,8 +2,8 @@ right_key = keyboard_check(vk_right) or keyboard_check(ord("D"))
 left_key = keyboard_check(vk_left) or keyboard_check(ord("A"))
 up_key = keyboard_check(vk_up) or keyboard_check(ord("W"))
 down_key = keyboard_check(vk_down) or keyboard_check(ord("S"))
-dash = mouse_check_button(mb_right) or keyboard_check(vk_shift)
 gunbullet = mouse_check_button(mb_left)
+dash = mouse_check_button(mb_right) or keyboard_check(vk_shift)
 function normalmovement()
 
 {
@@ -80,7 +80,7 @@ sprite_index = sprite[face]
 //cooldown + bullets but better 
 if (can_use_ability) and gunbullet > 0 {
 	//creates bullets and makes and alarm for 5 frames. 
-	instance_create_layer(x, y, gun_violence, gun_violence)
+	instance_create_layer(x, y, Room1, gun_violence)
 	alarm[0] = 5;
 	can_use_ability = false;
     }
