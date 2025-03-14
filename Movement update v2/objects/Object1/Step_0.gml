@@ -2,8 +2,8 @@ right_key = keyboard_check(vk_right) or keyboard_check(ord("D"))
 left_key = keyboard_check(vk_left) or keyboard_check(ord("A"))
 up_key = keyboard_check(vk_up) or keyboard_check(ord("W"))
 down_key = keyboard_check(vk_down) or keyboard_check(ord("S"))
-dash = keyboard_check(vk_shift);
-gunbullet = mouse_button
+dash = mouse_check_button(mb_right) or keyboard_check(vk_shift)
+gunbullet = mouse_check_button(mb_left)
 function normalmovement()
 
 {
@@ -75,7 +75,13 @@ sprite_index = sprite[face]
 
 
 //hahahahahaha.... AHAHHAHAHAHHAHAHAHHAHAHAHAH!!!!! -chad
-//bullets? or smth idfk
-if gunbullet > 0 {
+
+//bullets? or smth idfk (add cooldown)
+
+
+// Step Event (or event where ability is triggered)
+if (can_use_ability) and gunbullet > 0 {
 	instance_create_layer(x, y, gun_violence, gun_violence)
-	}
+	alarm[0] = 5;  // Set alarm for 1 second (60 frames)
+	can_use_ability = false;
+    }

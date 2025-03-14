@@ -16,3 +16,5 @@ sprite[LEFT] = lil_evader_r
 sprite[DOWN] = lil_evader_d
 
 face = RIGHT;
+// Create Event
+can_use_ability = true;
