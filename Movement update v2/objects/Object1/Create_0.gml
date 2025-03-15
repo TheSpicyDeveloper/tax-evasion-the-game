@@ -9,7 +9,13 @@ right_key = false;
 left_key = false;
 up_key = false;
 down_key = false;
-shoot = false;
 dashdirections = [false,false,false,false];
-shootcooldown = 30;
-currentcooldown = 30;
+sprite[RIGHT] = lil_evader_l
+sprite[UP] = lil_evader_u
+sprite[LEFT] = lil_evader_r
+sprite[DOWN] = lil_evader_d
+gunbullet = 0
+
+face = RIGHT;
+// Create Event
+can_use_ability = true;

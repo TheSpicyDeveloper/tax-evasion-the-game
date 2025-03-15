@@ -1,22 +1,9 @@
-right_key = keyboard_check(vk_right);
-left_key = keyboard_check(vk_left);
-up_key = keyboard_check(vk_up);
-down_key = keyboard_check(vk_down);
-dash = keyboard_check(vk_shift);
-
-
-shoot = mouse_check_button(1);
-
-if shoot == true and currentcooldown < 1
-{
-var newBullet = instance_create_depth(x,y,1,bullet)
-newBullet.image_angle = point_direction(x,y,mouse_x,mouse_y)
-currentcooldown = shootcooldown;
-}
-
-
-
-
+right_key = keyboard_check(vk_right) or keyboard_check(ord("D"))
+left_key = keyboard_check(vk_left) or keyboard_check(ord("A"))
+up_key = keyboard_check(vk_up) or keyboard_check(ord("W"))
+down_key = keyboard_check(vk_down) or keyboard_check(ord("S"))
+gunbullet = mouse_check_button(mb_left)
+dash = mouse_check_button(mb_right) or keyboard_check(vk_shift)
 function normalmovement()
 
 {
@@ -74,21 +61,26 @@ y += y_but_speed
 //dash cooldown calculation
 if dashcooldown > 0 {
 	dashcooldown -= 1
-}
-if currentcooldown > 0
-{
-currentcooldown -= 1
-}
 
 
+	}
 	
 // sprite
-if x_but_speed > 0 {sprite_index = lil_evader_l}
-if x_but_speed < 0 {sprite_index = lil_evader_r}
-if y_but_speed > 0 {sprite_index = lil_evader_d}
-if y_but_speed < 0 {sprite_index = lil_evader_u}
+if x_but_speed > 0 {face = RIGHT}
+if x_but_speed < 0 {face = LEFT}
+if y_but_speed > 0 {face = DOWN}
+if y_but_speed < 0 {face = UP}
+sprite_index = sprite[face]
 
 
 
 //hahahahahaha.... AHAHHAHAHAHHAHAHAHHAHAHAHAH!!!!! -chad
 
+
+//cooldown + bullets but better 
+if (can_use_ability) and gunbullet > 0 {
+	//creates bullets and makes and alarm for 5 frames. 
+	instance_create_layer(x, y, Room1, gun_violence)
+	alarm[0] = 15;
+	can_use_ability = false;
+    }
