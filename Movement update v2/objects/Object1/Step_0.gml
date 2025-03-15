@@ -81,6 +81,6 @@ sprite_index = sprite[face]
 if (can_use_ability) and gunbullet > 0 {
 	//creates bullets and makes and alarm for 5 frames. 
 	instance_create_layer(x, y, Room1, gun_violence)
-	alarm[0] = 5;
+	alarm[0] = 15;
 	can_use_ability = false;
     }
