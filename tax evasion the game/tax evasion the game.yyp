@@ -1,6 +1,6 @@
 {
   "$GMProject":"",
-  "%Name":"Movement update v2",
+  "%Name":"tax evasion the game",
   "AudioGroups":[
     {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
@@ -32,7 +32,7 @@
   "MetaData":{
     "IDEVersion":"2024.11.0.179",
   },
-  "name":"Movement update v2",
+  "name":"tax evasion the game",
   "resources":[
     {"id":{"name":"dumbass_enemy","path":"objects/dumbass_enemy/dumbass_enemy.yy",},},
     {"id":{"name":"gun_violence","path":"objects/gun_violence/gun_violence.yy",},},

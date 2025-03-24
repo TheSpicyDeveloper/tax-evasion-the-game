@@ -1,0 +1,16 @@
+{
+  "FolderOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"dumbass_enemy","order":2,"path":"objects/dumbass_enemy/dumbass_enemy.yy",},
+    {"name":"gun_violence","order":1,"path":"objects/gun_violence/gun_violence.yy",},
+    {"name":"bullet","order":4,"path":"sprites/bullet/bullet.yy",},
+    {"name":"Dumbass_Enemy","order":6,"path":"sprites/Dumbass_Enemy/Dumbass_Enemy.yy",},
+    {"name":"lil_evader_d","order":2,"path":"sprites/lil_evader_d/lil_evader_d.yy",},
+    {"name":"lil_evader_l","order":1,"path":"sprites/lil_evader_l/lil_evader_l.yy",},
+    {"name":"lil_evader_u","order":3,"path":"sprites/lil_evader_u/lil_evader_u.yy",},
+    {"name":"Sprite10","order":1,"path":"sprites/Sprite10/Sprite10.yy",},
+    {"name":"Sprite8","order":5,"path":"sprites/Sprite8/Sprite8.yy",},
+    {"name":"Sprite9","order":2,"path":"sprites/Sprite9/Sprite9.yy",},
+    {"name":"TileSet2","order":1,"path":"tilesets/TileSet2/TileSet2.yy",},
+  ],
+}
