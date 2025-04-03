@@ -1,13 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"dumbass_enemy",
-  "eventList":[],
+  "%Name":"Enemy_IRS",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"dumbass_enemy",
+  "name":"Enemy_IRS",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Enemies",
+    "path":"folders/Objects/Enemies.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Dumbass_Enemy",
-    "path":"sprites/Dumbass_Enemy/Dumbass_Enemy.yy",
+    "name":"IRS_down",
+    "path":"sprites/IRS_down/IRS_down.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -70,7 +70,7 @@ if x_but_speed > 0 {face = RIGHT}
 if x_but_speed < 0 {face = LEFT}
 if y_but_speed > 0 {face = DOWN}
 if y_but_speed < 0 {face = UP}
-sprite_index = sprite[face]
+
 
 
 
@@ -84,3 +84,6 @@ if (can_use_ability) and gunbullet > 0 {
 	alarm[0] = 15;
 	can_use_ability = false;
     }
+
+global.playerX = x
+global.playerY = y

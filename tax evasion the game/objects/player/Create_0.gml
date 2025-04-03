@@ -19,3 +19,5 @@ gunbullet = 0
 face = RIGHT;
 // Create Event
 can_use_ability = true;
+global.playerX = x
+global.playerY = y

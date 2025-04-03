@@ -9,8 +9,8 @@
   "name":"gun_violence",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Player things",
+    "path":"folders/Objects/Player things.yy",
   },
   "parentObjectId":null,
   "persistent":false,
