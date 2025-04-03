@@ -61,7 +61,8 @@ y += y_but_speed
 //dash cooldown calculation
 if dashcooldown > 0 {
 	dashcooldown -= 1
-
+global.playerX = x
+global.playerY = y
 
 	}
 	

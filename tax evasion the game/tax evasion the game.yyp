@@ -41,6 +41,7 @@
     {"id":{"name":"Enemy_IRS","path":"objects/Enemy_IRS/Enemy_IRS.yy",},},
     {"id":{"name":"gun_violence","path":"objects/gun_violence/gun_violence.yy",},},
     {"id":{"name":"object_wall","path":"objects/object_wall/object_wall.yy",},},
+    {"id":{"name":"Object5","path":"objects/Object5/Object5.yy",},},
     {"id":{"name":"player","path":"objects/player/player.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Macros","path":"scripts/Macros/Macros.yy",},},

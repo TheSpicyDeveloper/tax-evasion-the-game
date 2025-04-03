@@ -7,6 +7,7 @@
   ],
   "ResourceOrderSettings":[
     {"name":"gun_violence","order":1,"path":"objects/gun_violence/gun_violence.yy",},
+    {"name":"Object5","order":1,"path":"objects/Object5/Object5.yy",},
     {"name":"bullet","order":4,"path":"sprites/bullet/bullet.yy",},
     {"name":"IRS_left_down","order":1,"path":"sprites/IRS_left_down/IRS_left_down.yy",},
     {"name":"IRS_left_up","order":4,"path":"sprites/IRS_left_up/IRS_left_up.yy",},
